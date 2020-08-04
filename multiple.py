@@ -2,7 +2,9 @@
 #use modules and conditionals to do this
 
 x = 21
-y = 16
+
+print("Enter a number (y):")
+y = int(input())
 
 if x % 3 == 0 and x % 7 == 0:
   print("x is divisible by 3 and 7")
