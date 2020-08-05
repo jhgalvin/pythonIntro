@@ -3,8 +3,10 @@
 def maximum(number1, number2):
     if(number1 > number2):
         print("The first number entered, {}, is greater!".format(number1))
-    else:
+    elif(number1 < number2):
         print("The second number entered, {}, is greater!".format(number2))
+    else:
+        print("The numbers are equal!")
 
 print("Enter the first number: ")
 number1 = int(input())
